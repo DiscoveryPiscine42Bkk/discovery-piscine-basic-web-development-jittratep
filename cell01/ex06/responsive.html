@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Table</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    table {
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td {
+      width: 50%;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 3vw; /* ขนาดตัวอักษรปรับตามความกว้างหน้าจอ */
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .box1 {
+      background-color: rgb(22, 250, 250);
+    }
+
+    .box2 {
+      background-color: rgba(4, 244, 172, 0.658);
+    }
+  </style>
+</head>
+<body>
+
+  <table border="1">
+    <tr>
+      <td class="box1">This is Box 1</td>
+      <td class="box2">This is Box 2</td>
+    </tr>
+  </table>
+
+</body>
+</html>
